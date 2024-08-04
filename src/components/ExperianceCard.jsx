@@ -9,7 +9,7 @@ function ExperianceCard({ experience, index }) {
   }, []);
 
   return (
-    <article className={`relative row-span-2 my-auto ${position}`}>
+    <article className={`relative row-span-2 mb-8 mt-auto ${position}`}>
       <h2 className="mb-1 font-inter text-lg">
         <span> {experience.startDate} </span>-
         <span> {experience.endDate} </span>|<span> {experience.type} </span>

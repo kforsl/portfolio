@@ -1,6 +1,7 @@
 import Experience from "./Experience";
 import Title from "./Title";
 import { about } from "../data/data";
+import Skill from "./Skill";
 
 function About() {
   return (
@@ -9,22 +10,16 @@ function About() {
       className="mx-auto mb-10 max-w-1000 rounded-2xl bg-grayish p-10"
     >
       <Title title={"Om Mig"} bg={"grayish"} />
-      <article className="mb-6 grid grid-cols-5 gap-16 text-white">
-        <p className="col-span-3 font-inter">{about.aboutMe}</p>
+      <article className="mb-6 grid grid-cols-6 gap-16 text-white">
+        <p className="col-span-4 my-auto font-inter">{about.aboutMe}</p>
         <section className="col-span-2 flex justify-center gap-8">
-          <article className="basis-1/2">
-            <h3 className="mb-2 text-center font-krona text-xl"> Dev Tools </h3>
-            <ul className="flex flex-wrap justify-center gap-2 font-inter text-base">
-              {about.tools.map((item) => {
-                return <li key={item}> {item} </li>;
-              })}
-            </ul>
-          </article>
-          <article className="basis-1/2">
-            <h3 className="mb-2 text-center font-krona text-xl"> Språk </h3>
-            <ul className="flex flex-wrap justify-center gap-2 font-inter text-base">
-              {about.lang.map((item) => {
-                return <li key={item}> {item} </li>;
+          <article>
+            <h3 className="mb-4 text-center font-krona text-xl"> Skills </h3>
+            <ul className="flex flex-wrap justify-center gap-4 font-inter text-base">
+              {about.skill.map((item) => {
+                return (
+                  <Skill name={item.name} icon={item.icon} key={item.name} />
+                );
               })}
             </ul>
           </article>
