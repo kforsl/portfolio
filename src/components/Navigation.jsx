@@ -10,7 +10,7 @@ function Navigation({ executeScroll }) {
             className="flex cursor-pointer justify-end gap-4 transition duration-300 hover:text-primary"
             onClick={() => executeScroll("hero")}
           >
-            <figcaption className="font-inter"> Home </figcaption>
+            <figcaption className="select-none font-inter"> Home </figcaption>
             <figure>
               <FaHome size={"24px"} />
             </figure>
@@ -20,7 +20,7 @@ function Navigation({ executeScroll }) {
             className="flex cursor-pointer justify-end gap-4 transition duration-300 hover:text-primary"
             onClick={() => executeScroll("about")}
           >
-            <figcaption className="font-inter"> Om mig </figcaption>
+            <figcaption className="select-none font-inter"> Om mig </figcaption>
             <figure>
               <FaInfo size={"24px"} />
             </figure>
@@ -30,7 +30,10 @@ function Navigation({ executeScroll }) {
             className="flex cursor-pointer justify-end gap-4 transition duration-300 hover:text-primary"
             onClick={() => executeScroll("projects")}
           >
-            <figcaption className="font-inter"> Projekt </figcaption>
+            <figcaption className="select-none font-inter">
+              {" "}
+              Projekt{" "}
+            </figcaption>
             <figure>
               <RiGitRepositoryFill size={"24px"} />
             </figure>
@@ -39,7 +42,10 @@ function Navigation({ executeScroll }) {
             className="flex cursor-pointer justify-end gap-4 transition duration-300 hover:text-primary"
             onClick={() => executeScroll("contact")}
           >
-            <figcaption className="font-inter"> Kontakt </figcaption>
+            <figcaption className="select-none font-inter">
+              {" "}
+              Kontakt{" "}
+            </figcaption>
             <figure>
               <RiContactsBookFill size={"24px"} />
             </figure>

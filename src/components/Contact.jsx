@@ -5,7 +5,13 @@ import { IoIosMail } from "react-icons/io";
 
 const copyMail = (mail) => {
   navigator.clipboard.writeText(mail);
-  alert("Kopierat email: " + mail);
+  document.querySelector("#copyMailMessage").textContent = "Kopierat";
+
+  setTimeout(
+    () =>
+      (document.querySelector("#copyMailMessage").textContent = "Kopiera mail"),
+    2000,
+  );
 };
 
 function Contact() {
@@ -37,8 +43,17 @@ function Contact() {
             </figure>
           </a>
         </li>
-        <li className="hover:text-primary" onClick={() => copyMail(mail)}>
-          <figure>
+        <li
+          className="group relative transform duration-300 active:scale-95"
+          onClick={() => copyMail(mail)}
+        >
+          <p
+            id="copyMailMessage"
+            className="pointer-events-none absolute left-1/2 top-full -translate-x-1/2 text-nowrap rounded-md bg-grayish px-8 py-2 opacity-0 transition duration-300 group-hover:opacity-100"
+          >
+            Kopiera mail
+          </p>
+          <figure className="group-hover:text-primary">
             <IoIosMail size={"32px"} className="mx-auto" />
             <figcaption className="font-inter">{mail}</figcaption>
           </figure>

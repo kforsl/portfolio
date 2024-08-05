@@ -73,40 +73,40 @@ export const experience = [
 ];
 
 export const project = [
-  {
-    imgSrc: "../src/assets/images/portfolio.png",
-    projectName: "Portfolio Websida",
-    description:
-      "Detta projekt innefattar skapandet av min personliga portfoliosida med hjälp av React och Tailwind CSS. Målet med projektet var att skapa en stilren, responsiv och användarvänlig webbplats där jag kan visa upp mina färdigheter, erfarenheter och tidigare arbeten.",
-    toolKit: [
-      {
-        name: "React",
-        icon: "./src/assets/icons/react-js-icon.svg",
-      },
-      {
-        name: "Tailwind",
-        icon: "./src/assets/icons/tailwind-css-icon.svg",
-      },
-      {
-        name: "JavaScript",
-        icon: "./src/assets/icons/javascript-icon.svg",
-      },
-    ],
-    buttonLink: [
-      {
-        name: "Figma",
-        url: "https://www.figma.com/design/6BZbLNSAvTWHwI6E21n6NZ/Portfolio?node-id=20-205&t=GaQNJRh3tLRoVa8i-1",
-      },
-      {
-        name: "Github",
-        url: "#",
-      },
-      {
-        name: "Live",
-        url: "# ",
-      },
-    ],
-  },
+  //   {
+  //     imgSrc: "../src/assets/images/portfolio.png",
+  //     projectName: "Portfolio Websida",
+  //     description:
+  //       "Detta projekt innefattar skapandet av min personliga portfoliosida med hjälp av React och Tailwind CSS. Målet med projektet var att skapa en stilren, responsiv och användarvänlig webbplats där jag kan visa upp mina färdigheter, erfarenheter och tidigare arbeten.",
+  //     toolKit: [
+  //       {
+  //         name: "React",
+  //         icon: "./src/assets/icons/react-js-icon.svg",
+  //       },
+  //       {
+  //         name: "Tailwind",
+  //         icon: "./src/assets/icons/tailwind-css-icon.svg",
+  //       },
+  //       {
+  //         name: "JavaScript",
+  //         icon: "./src/assets/icons/javascript-icon.svg",
+  //       },
+  //     ],
+  //     buttonLink: [
+  //       {
+  //         name: "Figma",
+  //         url: "https://www.figma.com/design/6BZbLNSAvTWHwI6E21n6NZ/Portfolio?node-id=20-205&t=GaQNJRh3tLRoVa8i-1",
+  //       },
+  //       {
+  //         name: "Github",
+  //         url: "#",
+  //       },
+  //       {
+  //         name: "Live",
+  //         url: "# ",
+  //       },
+  //     ],
+  //   },
   {
     imgSrc: "../src/assets/images/yumyum.png",
     projectName: "YumYum",
@@ -122,19 +122,23 @@ export const project = [
         icon: "./src/assets/icons/tailwind-css-icon.svg",
       },
       {
+        name: "JavaScript",
+        icon: "./src/assets/icons/javascript-icon.svg",
+      },
+      {
         name: "NodeJS",
         icon: "./src/assets/icons/node-js-icon.svg",
       },
     ],
     buttonLink: [
       {
-        name: "Github",
+        name: "Github Repo",
         url: "https://github.com/",
       },
-      {
-        name: "Live",
-        url: "https://www.google.com/",
-      },
+      //   {
+      //     name: "Live",
+      //     url: "# ",
+      //   },
     ],
   },
   {
@@ -154,12 +158,34 @@ export const project = [
     ],
     buttonLink: [
       {
-        name: "Github",
+        name: "Github Repo",
         url: "https://github.com/kforsl/whereIts-",
       },
+    ],
+  },
+  {
+    imgSrc: "./src/assets/images/myMovieDatabase.png",
+    projectName: "MyMovieDatabase",
+    description:
+      "Detta var en individuell examinationsuppgift i kursen JavaScript med ES6+. En filmdatabas skapad med HTML, CSS och JavaScript visar de topp 20 filmerna och fem slumpade trailers på startsidan. Användare kan söka efter filmer och få detaljerad information vid klick och spara favoritfilmer.",
+    toolKit: [
       {
-        name: "Live",
-        url: "https://www.google.com/",
+        name: "HTML",
+        icon: "./src/assets/icons/html-icon.svg",
+      },
+      {
+        name: "CSS",
+        icon: "./src/assets/icons/css-icon.svg",
+      },
+      {
+        name: "JavaScript",
+        icon: "./src/assets/icons/javascript-icon.svg",
+      },
+    ],
+    buttonLink: [
+      {
+        name: "Github Repo",
+        url: "https://github.com/kforsl/myMovieDatabase",
       },
     ],
   },
