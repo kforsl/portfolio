@@ -7,15 +7,15 @@ function About() {
   return (
     <section
       id="about"
-      className="mx-auto mb-10 max-w-1000 rounded-2xl bg-grayish p-10"
+      className="mx-auto max-w-1000 rounded-xl bg-grayish p-4 lg:p-8"
     >
-      <Title title={"Om Mig"} bg={"grayish"} />
-      <article className="mb-6 grid grid-cols-6 gap-16 text-white">
-        <p className="col-span-4 my-auto font-inter">{about.aboutMe}</p>
-        <section className="col-span-2 flex justify-center gap-8">
+      <Title title={"Om Mig"} />
+      <article className="mb-8 grid grid-cols-1 gap-4 font-inter text-white lg:grid-cols-6">
+        <p className="lg:col-span-4">{about.aboutMe}</p>
+        <section className="lg:col-span-2">
           <article>
-            <h3 className="mb-4 text-center font-krona text-xl"> Skills </h3>
-            <ul className="flex flex-wrap justify-center gap-4 font-inter text-base">
+            <h3 className="mb-2 text-center text-2xl">Skills</h3>
+            <ul className="flex flex-wrap justify-center gap-4">
               {about.skill.map((item) => {
                 return (
                   <Skill name={item.name} icon={item.icon} key={item.name} />

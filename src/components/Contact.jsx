@@ -20,7 +20,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="mx-auto mb-10 w-full max-w-1000 pb-10 text-white"
+      className="mx-auto mb-10 w-full max-w-1000 pb-10 text-white max-lg:px-4"
     >
       <Title title={"Contact"} />
       <ul className="flex justify-center gap-8 px-8 text-center">

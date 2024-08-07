@@ -28,9 +28,9 @@ function Experience() {
         <IoMdDownload size={"32px"} className="group-hover:animate-pulse" />
       </button>
       <section
-        className={`mx-auto grid grid-cols-2 text-white grid-rows-${experiences.length + 1} gap-y-4 divide-white`}
+        className={`mx-auto grid text-white md:grid-cols-2 md:grid-rows-${experiences.length + 1} md:gap-y-4`}
       >
-        <div className="col-start-2 row-start-1 divide-x"></div>
+        <div className="md:col-start-2 md:row-start-1"></div>
         {experiences.map((experience, index) => {
           return (
             <ExperianceCard

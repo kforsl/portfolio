@@ -59,7 +59,7 @@ export const experience = [
   },
   {
     startDate: "Jan 16",
-    endDate: "",
+    endDate: "Aug 23",
     company: "Onitio",
     type: "Servicetekniker",
     description:
