@@ -74,7 +74,7 @@ export const experience = [
 
 export const project = [
   {
-    imgSrc: "../assets/images/yumyum.png",
+    imgSrc: "./assets/images/yumyum.png",
     projectName: "YumYum",
     description:
       "Detta projekt är en övning i frontend- och backend-utveckling. Frontend är byggd med React och Tailwind CSS och inkluderar funktioner för att lägga varor i en varukorg, skapa en order, se orderstatus och kvitto. Personal kan uppdatera en orders status till färdig. Backend är utvecklad med Node.js och hanterar meny och alla ordrar.",
