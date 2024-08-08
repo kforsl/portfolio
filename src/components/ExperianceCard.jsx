@@ -4,12 +4,12 @@ function ExperianceCard({ experience, index }) {
   const [position, setPosition] = useState("");
   useEffect(() => {
     index % 2 === 0
-      ? setPosition("border-r-2 pr-4 -mr-px")
-      : setPosition("border-l-2 pl-4 -ml-px");
+      ? setPosition("md:border-r-2 md:pr-4 md:-mr-px")
+      : setPosition("md:border-l-2 md:pl-4 md:-ml-px");
   }, []);
 
   return (
-    <article className={`relative row-span-2 mb-8 mt-auto ${position}`}>
+    <article className={`relative mb-8 mt-auto md:row-span-2 ${position}`}>
       <h2 className="mb-1 font-inter text-lg">
         <span> {experience.startDate} </span>-
         <span> {experience.endDate} </span>|<span> {experience.type} </span>

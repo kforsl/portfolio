@@ -11,7 +11,10 @@ function Projects() {
   }, []);
 
   return (
-    <section id="projects" className="mx-auto mb-10 max-w-1000 py-10">
+    <section
+      id="projects"
+      className="mx-auto mb-10 max-w-1000 py-6 max-lg:px-4 md:py-10"
+    >
       <Title title={"Projekt"} />
 
       <section className="flex flex-col gap-8">

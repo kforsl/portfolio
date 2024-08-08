@@ -2,26 +2,22 @@ import React from "react";
 
 function Hero({ executeScroll }) {
   return (
-    <section id="hero" className="max-h-svh min-h-60 py-60">
-      <article className="mx-auto min-h-fit max-w-1000 py-60 text-white">
-        <h1 className="mb-4 text-pretty font-inter text-4xl">
-          Hej mitt namn är
-          <span className="ml-4 text-nowrap font-krona tracking-[.8rem] text-primary">
-            KIM FORSLUND
-          </span>
+    <section id="hero" className="flex h-svh flex-col justify-center px-4">
+      <article className="text-center font-inter text-xl text-white md:text-2xl lg:text-3xl xl:text-4xl">
+        <h2 className="mb-2 xl:mb-4">Hej mitt namn är</h2>
+        <h1 className="mb-4 font-krona tracking-[.5rem] text-primary md:tracking-[.7rem] xl:mb-8 xl:tracking-[.9rem]">
+          KIM FORSLUND
         </h1>
-        <h2 className="mb-4 font-inter text-xl">
+        <h3 className="mb-4 xl:mb-8">
           Jag är en studerande frontendutvecklare
-        </h2>
-        <h2 className="mb-4 font-inter text-xl">
-          Välkommen att kolla in några av mina
-          <button
-            onClick={() => executeScroll("projects")}
-            className="ml-2 cursor-pointer text-primary underline transition duration-300 hover:text-primary-dark"
-          >
-            Projekt!
-          </button>
-        </h2>
+        </h3>
+        <h3 className="mb-2 xl:mb-4">Välkommen att kolla in mina</h3>
+        <button
+          onClick={() => executeScroll("projects")}
+          className="cursor-pointer tracking-wider text-primary underline transition duration-300 hover:text-primary-dark"
+        >
+          Projekt!
+        </button>
       </article>
     </section>
   );

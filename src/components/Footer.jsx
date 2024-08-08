@@ -3,8 +3,8 @@ import Contact from "./Contact";
 
 function Footer() {
   return (
-    <footer className="bg-grayish/50 py-10 shadow-footer">
-      <p className="mx-auto mt-2 max-w-1000 font-inter text-white">
+    <footer className="bg-grayish/50 px-8 py-10 shadow-footer max-lg:px-4">
+      <p className="mx-auto max-w-1000 font-inter text-white">
         Skapad av Kim Forslund - 2024
       </p>
     </footer>
