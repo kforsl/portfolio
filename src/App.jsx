@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="bg-gradient-to-br from-grayish via-black via-65% to-black">
-      {/* <Navigation executeScroll={executeScroll} /> */}
+      <Navigation executeScroll={executeScroll} />
       <Hero executeScroll={executeScroll} />
       <About />
       <Projects />

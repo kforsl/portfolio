@@ -1,5 +1,3 @@
-import { FaHtml5 } from "react-icons/fa";
-
 function Skill({ name, icon }) {
   return (
     <li>
