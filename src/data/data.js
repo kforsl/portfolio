@@ -4,35 +4,35 @@ export const about = {
   skill: [
     {
       name: "HTML",
-      icon: "./public/assets/icons/html-icon.svg",
+      icon: "./assets/icons/html-icon.svg",
     },
     {
       name: "CSS",
-      icon: "./public/assets/icons/css-icon.svg",
+      icon: "./assets/icons/css-icon.svg",
     },
     {
       name: "JavaScript",
-      icon: "./public/assets/icons/javascript-icon.svg",
+      icon: "./assets/icons/javascript-icon.svg",
     },
     {
       name: "React",
-      icon: "./public/assets/icons/react-js-icon.svg",
+      icon: "./assets/icons/react-js-icon.svg",
     },
     {
       name: "Tailwind",
-      icon: "./public/assets/icons/tailwind-css-icon.svg",
+      icon: "./assets/icons/tailwind-css-icon.svg",
     },
     {
       name: "NodeJS",
-      icon: "./public/assets/icons/node-js-icon.svg",
+      icon: "./assets/icons/node-js-icon.svg",
     },
     {
       name: "Git",
-      icon: "./public/assets/icons/git-icon.svg",
+      icon: "./assets/icons/git-icon.svg",
     },
     {
       name: "Figma",
-      icon: "./public/assets/icons/figma-icon.svg",
+      icon: "./assets/icons/figma-icon.svg",
     },
   ],
 };
@@ -74,26 +74,26 @@ export const experience = [
 
 export const project = [
   {
-    imgSrc: "../public/assets/images/yumyum.png",
+    imgSrc: "../assets/images/yumyum.png",
     projectName: "YumYum",
     description:
       "Detta projekt är en övning i frontend- och backend-utveckling. Frontend är byggd med React och Tailwind CSS och inkluderar funktioner för att lägga varor i en varukorg, skapa en order, se orderstatus och kvitto. Personal kan uppdatera en orders status till färdig. Backend är utvecklad med Node.js och hanterar meny och alla ordrar.",
     toolKit: [
       {
         name: "React",
-        icon: "./public/assets/icons/react-js-icon.svg",
+        icon: "./assets/icons/react-js-icon.svg",
       },
       {
         name: "Tailwind",
-        icon: "./public/assets/icons/tailwind-css-icon.svg",
+        icon: "./assets/icons/tailwind-css-icon.svg",
       },
       {
         name: "JavaScript",
-        icon: "./public/assets/icons/javascript-icon.svg",
+        icon: "./assets/icons/javascript-icon.svg",
       },
       {
         name: "NodeJS",
-        icon: "./public/assets/icons/node-js-icon.svg",
+        icon: "./assets/icons/node-js-icon.svg",
       },
     ],
     buttonLink: [
@@ -108,18 +108,18 @@ export const project = [
     ],
   },
   {
-    imgSrc: "./public/assets/images/whereIts.png",
+    imgSrc: "./assets/images/whereIts.png",
     projectName: "Where It's @",
     description:
       "Detta var en individuell examinationsuppgift i kursen Frontendramverk. Appen är skapad med React och använder axios för API-hantering samt react-router-dom för routing mellan sidor. För avancerad statehantering har jag använt Zustand. Externa bibliotek som swiper för att bläddra mellan biljetter, styled-components för styling, och react-icons för ikoner har också använts.",
     toolKit: [
       {
         name: "React",
-        icon: "./public/assets/icons/react-js-icon.svg",
+        icon: "./assets/icons/react-js-icon.svg",
       },
       {
         name: "JavaScript",
-        icon: "./public/assets/icons/javascript-icon.svg",
+        icon: "./assets/icons/javascript-icon.svg",
       },
     ],
     buttonLink: [
@@ -130,22 +130,22 @@ export const project = [
     ],
   },
   {
-    imgSrc: "./public/assets/images/myMovieDatabase.png",
+    imgSrc: "./assets/images/myMovieDatabase.png",
     projectName: "MyMovieDatabase",
     description:
       "Detta var en individuell examinationsuppgift i kursen JavaScript med ES6+. En filmdatabas skapad med HTML, CSS och JavaScript visar de topp 20 filmerna och fem slumpade trailers på startsidan. Användare kan söka efter filmer och få detaljerad information vid klick och spara favoritfilmer.",
     toolKit: [
       {
         name: "HTML",
-        icon: "./public/assets/icons/html-icon.svg",
+        icon: "./assets/icons/html-icon.svg",
       },
       {
         name: "CSS",
-        icon: "./public/assets/icons/css-icon.svg",
+        icon: "./assets/icons/css-icon.svg",
       },
       {
         name: "JavaScript",
-        icon: "./public/assets/icons/javascript-icon.svg",
+        icon: "./assets/icons/javascript-icon.svg",
       },
     ],
     buttonLink: [
