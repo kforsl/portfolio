@@ -4,35 +4,35 @@ export const about = {
   skill: [
     {
       name: "HTML",
-      icon: "./src/assets/icons/html-icon.svg",
+      icon: "./assets/icons/html-icon.svg",
     },
     {
       name: "CSS",
-      icon: "./src/assets/icons/css-icon.svg",
+      icon: "./assets/icons/css-icon.svg",
     },
     {
       name: "JavaScript",
-      icon: "./src/assets/icons/javascript-icon.svg",
+      icon: "./assets/icons/javascript-icon.svg",
     },
     {
       name: "React",
-      icon: "./src/assets/icons/react-js-icon.svg",
+      icon: "./assets/icons/react-js-icon.svg",
     },
     {
       name: "Tailwind",
-      icon: "./src/assets/icons/tailwind-css-icon.svg",
+      icon: "./assets/icons/tailwind-css-icon.svg",
     },
     {
       name: "NodeJS",
-      icon: "./src/assets/icons/node-js-icon.svg",
+      icon: "./assets/icons/node-js-icon.svg",
     },
     {
       name: "Git",
-      icon: "./src/assets/icons/git-icon.svg",
+      icon: "./assets/icons/git-icon.svg",
     },
     {
       name: "Figma",
-      icon: "./src/assets/icons/figma-icon.svg",
+      icon: "./assets/icons/figma-icon.svg",
     },
   ],
 };
@@ -81,25 +81,25 @@ export const project = [
     toolKit: [
       {
         name: "React",
-        icon: "./src/assets/icons/react-js-icon.svg",
+        icon: "./assets/icons/react-js-icon.svg",
       },
       {
         name: "Tailwind",
-        icon: "./src/assets/icons/tailwind-css-icon.svg",
+        icon: "./assets/icons/tailwind-css-icon.svg",
       },
       {
         name: "JavaScript",
-        icon: "./src/assets/icons/javascript-icon.svg",
+        icon: "./assets/icons/javascript-icon.svg",
       },
       {
         name: "NodeJS",
-        icon: "./src/assets/icons/node-js-icon.svg",
+        icon: "./assets/icons/node-js-icon.svg",
       },
     ],
     buttonLink: [
       {
         name: "Github Repo",
-        url: "https://github.com/",
+        url: "https://github.com/kforsl/YumYum",
       },
       //   {
       //     name: "Live",
@@ -108,18 +108,18 @@ export const project = [
     ],
   },
   {
-    imgSrc: "./src/assets/images/whereIts.png",
+    imgSrc: "./assets/images/whereIts.png",
     projectName: "Where It's @",
     description:
       "Detta var en individuell examinationsuppgift i kursen Frontendramverk. Appen är skapad med React och använder axios för API-hantering samt react-router-dom för routing mellan sidor. För avancerad statehantering har jag använt Zustand. Externa bibliotek som swiper för att bläddra mellan biljetter, styled-components för styling, och react-icons för ikoner har också använts.",
     toolKit: [
       {
         name: "React",
-        icon: "./src/assets/icons/react-js-icon.svg",
+        icon: "./assets/icons/react-js-icon.svg",
       },
       {
         name: "JavaScript",
-        icon: "./src/assets/icons/javascript-icon.svg",
+        icon: "./assets/icons/javascript-icon.svg",
       },
     ],
     buttonLink: [
@@ -130,22 +130,22 @@ export const project = [
     ],
   },
   {
-    imgSrc: "./src/assets/images/myMovieDatabase.png",
+    imgSrc: "./assets/images/myMovieDatabase.png",
     projectName: "MyMovieDatabase",
     description:
       "Detta var en individuell examinationsuppgift i kursen JavaScript med ES6+. En filmdatabas skapad med HTML, CSS och JavaScript visar de topp 20 filmerna och fem slumpade trailers på startsidan. Användare kan söka efter filmer och få detaljerad information vid klick och spara favoritfilmer.",
     toolKit: [
       {
         name: "HTML",
-        icon: "./src/assets/icons/html-icon.svg",
+        icon: "./assets/icons/html-icon.svg",
       },
       {
         name: "CSS",
-        icon: "./src/assets/icons/css-icon.svg",
+        icon: "./assets/icons/css-icon.svg",
       },
       {
         name: "JavaScript",
-        icon: "./src/assets/icons/javascript-icon.svg",
+        icon: "./assets/icons/javascript-icon.svg",
       },
     ],
     buttonLink: [
