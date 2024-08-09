@@ -7,7 +7,7 @@ function About() {
   return (
     <section
       id="about"
-      className="mx-auto max-w-1000 rounded-xl bg-grayish p-4 lg:p-8"
+      className="mx-auto max-w-1000 bg-grayish p-4 lg:rounded-xl lg:p-8"
     >
       <Title title={"Om Mig"} />
       <article className="mb-8 grid grid-cols-1 gap-4 font-inter text-white lg:grid-cols-6">
