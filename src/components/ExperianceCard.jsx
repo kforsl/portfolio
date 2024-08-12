@@ -14,9 +14,9 @@ function ExperianceCard({ experience, index }) {
         <span> {experience.startDate} </span>-
         <span> {experience.endDate} </span>|<span> {experience.type} </span>
       </h2>
-      <h3 className="mb-1 font-krona text-sm">{experience.company}</h3>
+      <h3 className="mb-2 font-krona text-sm">{experience.company}</h3>
       <div className="absolute left-0 h-0.5 w-full bg-white"></div>
-      <p className="mb-1 mt-2 font-inter">{experience.description}</p>
+      <p className="mb-2 mt-4 font-inter">{experience.description}</p>
       <ul className="list-disc pl-8 font-inter">
         {experience.list.map((item) => {
           return <li key={item}> {item} </li>;
