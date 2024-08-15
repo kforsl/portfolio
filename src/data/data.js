@@ -99,7 +99,7 @@ export const project = [
     buttonLink: [
       {
         name: "Github Repo",
-        url: "https://github.com/",
+        url: "https://github.com/kforsl/YumYum",
       },
       //   {
       //     name: "Live",
