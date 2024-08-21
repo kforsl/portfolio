@@ -5,7 +5,7 @@ import { experience } from "../data/data";
 import { IoMdDownload } from "react-icons/io";
 
 const openCVinNewTab = () => {
-  window.open("./public/cv.pdf");
+  window.open("./cv.pdf");
 };
 
 function Experience() {
