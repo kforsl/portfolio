@@ -3,9 +3,10 @@ import { useEffect, useState } from "react";
 import Title from "./Title";
 import { experience } from "../data/data";
 import { IoMdDownload } from "react-icons/io";
+import CV from "../../public/assets/CV.pdf";
 
 const openCVinNewTab = () => {
-  window.open("./cv.pdf");
+  window.open(CV, "_blank");
 };
 
 function Experience() {
