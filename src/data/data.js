@@ -124,8 +124,12 @@ export const project = [
     ],
     buttonLink: [
       {
+        name: "Live",
+        url: "https://kforsl.github.io/whereItsAt/",
+      },
+      {
         name: "Github Repo",
-        url: "https://github.com/kforsl/whereIts-",
+        url: "https://github.com/kforsl/whereItsAt",
       },
     ],
   },
