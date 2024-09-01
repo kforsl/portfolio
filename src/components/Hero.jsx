@@ -68,12 +68,16 @@ function Hero({ executeScroll }) {
       </article>
 
       {showChevron && (
-        <BsChevronCompactDown
-          size={"48px"}
-          color={"white"}
-          className="absolute bottom-12 left-1/2 top-auto -translate-x-1/2 animate-bounce duration-1000 xl:bottom-4"
+        <figure
+          className="absolute bottom-12 left-1/2 top-auto -translate-x-1/2 cursor-pointer xl:bottom-4"
           onClick={() => executeScroll("about")}
-        />
+        >
+          <BsChevronCompactDown
+            size={"48px"}
+            color={"white"}
+            className="animate-bounce duration-1000"
+          />
+        </figure>
       )}
     </section>
   );
